@@ -61,5 +61,5 @@ fn.myCall(obj, 1, 2, 3);
 fn.myApply(obj, [1, 2, 3]);
 fn.myBind(obj, 1, 2, 3);
 fn.myNew(obj, 1, 2, 3);
-let index = fn.myNew(obj, 1, 2, 3);
+let index = fn.myNew(obj, 1, 2, 3);//是这个意思吗？
 console.log(index);

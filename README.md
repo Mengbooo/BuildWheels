@@ -12,4 +12,9 @@ https://zhuanlan.zhihu.com/p/42145138
 原来，Ajax并非我之前想那么高端，我还一直以为他是类似于axios的那种“库”    
 阮一峰讲的挺好 https://www.ruanyifeng.com/blog/2020/12/fetch-tutorial.html
  
-polyfill的实现，真的很适合拿来练手
+polyfill的实现，很适合拿来练手
+## promise
+跟着稀土掘金敲的，突然发现学校不墙稀土了。   
+https://juejin.cn/post/7011755708496478215 解释不错   
+敲完一遍之后有了一点理解，promise的本质还是“给一个将完成的承诺”
+ 

@@ -8,3 +8,8 @@ https://blog.csdn.net/ZYS10000/article/details/113447144
 
 https://zhuanlan.zhihu.com/p/42145138 
 讲this，call，apply（才发现call和apply不是很麻烦，似乎是jsinfo的翻译有些问题吧）
+## XHR与Fetch
+原来，Ajax并非我之前想那么高端，我还一直以为他是类似于axios的那种“库”    
+阮一峰讲的挺好 https://www.ruanyifeng.com/blog/2020/12/fetch-tutorial.html
+ 
+polyfill的实现，真的很适合拿来练手

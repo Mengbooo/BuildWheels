@@ -1,0 +1,8 @@
+{
+    "status" : 200,
+    "data" :{
+        "name": "mengbooo",
+        "age":18,
+        "mbti":"infj"
+    }
+}

@@ -1,20 +1,18 @@
 # BuildWheels
-是不是这么翻译呢，似乎并不是，正确的“造轮子”这个词就是先有英文然后直接被翻译过来的。可参考维基百科比较详细的解释。Additionally, those new to a language (and especially those new to programming) will often attempt to manually write many functions for which a more robust and optimized equivalent already exists in the standard library or other easily available libraries.
+Is this the correct translation? It seems not. The correct translation of "build wheels" is that the English word came first and was directly translated. Please refer to Wikipedia for a more detailed explanation. Additionally, those new to a language (and especially those new to programming) will often attempt to manually write many functions for which a more robust and optimized equivalent already exists in the standard library or other easily available libraries.
 ## This
-this的指向性问题真是让新手迷糊，让一些老手蒙圈。其实this就是this，它的指向与这个“this”的“运行环境”或者叫“依托对象”强相关。
-这是我觉得讲的比较透彻的几篇文章：
-https://blog.csdn.net/ZYS10000/article/details/113447144  
-这个是讲new的，（其实我还以为是自己写一个“new Function”来着，这玩意用的应该不多，基本用new都是创建一个对象）
+The directionality of this really confuses novices and leaves some veterans confused. In fact, this is this, and its direction is strongly related to the "running environment" or "dependency object" of this "this".
+Here are a few articles that I think are more thorough:
+https://blog.csdn.net/ZYS10000/article/details/113447144
+This is about new, (actually I thought I wrote a "new Function" myself, this thing should not be used much, basically new is used to create an object)
+https://zhuanlan.zhihu.com/p/42145138
+Talk about this, call, apply (I just found out that call and apply are not very troublesome, it seems that there are some problems with jsinfo's translation)
+## XHR and Fetch
+It turns out that Ajax is not as advanced as I thought before. I always thought it was a "library" similar to axios
+Ruan Yifeng's explanation is very good https://www.ruanyifeng.com/blog/2020/12/fetch-tutorial.html
 
-https://zhuanlan.zhihu.com/p/42145138 
-讲this，call，apply（才发现call和apply不是很麻烦，似乎是jsinfo的翻译有些问题吧）
-## XHR与Fetch
-原来，Ajax并非我之前想那么高端，我还一直以为他是类似于axios的那种“库”    
-阮一峰讲的挺好 https://www.ruanyifeng.com/blog/2020/12/fetch-tutorial.html
- 
-polyfill的实现，很适合拿来练手
+The implementation of polyfill is very suitable for practice
 ## promise
-跟着稀土掘金敲的，突然发现学校不墙稀土了。   
-https://juejin.cn/post/7011755708496478215 解释不错   
-敲完一遍之后有了一点理解，promise的本质还是“给一个将完成的承诺”
- 
+I followed the rare earth mining and suddenly found that the school is not a wall of rare earth.
+https://juejin.cn/post/7011755708496478215 Good explanation
+After typing it once, I have a better understanding that the essence of promise is still "giving a promise that will be fulfilled"
